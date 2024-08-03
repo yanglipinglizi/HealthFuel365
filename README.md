@@ -1,8 +1,8 @@
 # HealthFuel365 
 The health foods platform named “HealthFuel365” is an online store that offers foods retailing and recommends suitable products. It aims to help individuals to stay committed to a healthy diet. The platform name “HealthFuel365” is consistent with this goal, because our year-round platform aims to offer a curated selection of high-quality, nutritious foods and products from reputable suppliers. Based on healthy foods retailing with a recommendation mechanism, the platform promotes a healthy lifestyle, supporting the immune system and aiding in supporting a good diet and weight loss.
-<div style="text-align: center;">
+<p align="center">
   <img src="frontend/src/assets/images/logo.png" alt="logo" width="200">
-</div>
+</p>
 The customer journey is mainly divided into 7 parts, namely browsing our welcome page, creating a profile, browsing our homepage, searching products page, browsing the product detail page, adding the product into the shopping cart, and selecting the packing and shipping services.
 <div style="text-align: center;">
   <img src="images/homepage.png" alt="homepage" width="400">
