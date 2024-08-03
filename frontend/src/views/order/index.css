@@ -1,0 +1,109 @@
+.shoppingcart_wrap {
+}
+
+/* <Continue Shopping */
+.or_bread_crumb {
+  font-family: "Kaisei Opti";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  color: #033d1f;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 16px;
+  margin-left: 34px;
+}
+ 
+.or_bread_crumb a:visited {
+  color: #033d1f;
+}
+
+.or_content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.or_content_left {
+  margin-left: 50px;
+  display: block;
+  width: 60%;
+}
+
+/* summary */
+.or_content_right {
+  display: block;
+  width: 33%;
+
+  margin-right: 62px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+
+  box-sizing: border-box;
+  background: rgba(3, 61, 31, 0.15);
+  box-shadow: 0px 3.3px 3.3px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.or_choice {
+  margin-right: 10px;
+}
+.or_choice label {
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.or_choice input[type="radio"] {
+  appearance: none;
+  border-radius: 50%;
+  border: none;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 2px;
+  background-color: rgba(3, 61, 31, 0.15);
+}
+
+.or_choice input:checked {
+  border: 5px solid #033d1f;
+}
+
+.or_content_left .ant-collapse {
+  margin-bottom: 30px;
+}
+
+.or_content_left .ant-collapse-item {
+  box-sizing: border-box;
+  background: rgba(3, 61, 31, 0.06);
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 12px !important;
+}
+
+.or_content_left .ant-collapse-header {
+  font-family: "Kaisei Opti";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  color: #033d1f !important;
+}
+
+@media (max-width:940px) {
+  .or_content {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .or_content_left, .or_content_right {
+    margin-left: 50px;
+    display: block;
+    width: calc(100% - 100px);
+  }
+}

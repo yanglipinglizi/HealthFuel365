@@ -1,0 +1,18 @@
+/* 3 products will be displayed under 768px width */
+@media (max-width: 768px) {
+    .recommendation-wrap-product {
+      
+      width: 33.33%; 
+    }
+  }
+  
+  /* 2 products will be displayed under 480px width */
+  @media (max-width: 480px) {
+    .recommendation-wrap-product {
+      width: 50%; 
+    }
+  }
+
+.recommendation-wrap-product{
+
+}

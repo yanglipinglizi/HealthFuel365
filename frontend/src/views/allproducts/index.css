@@ -1,0 +1,43 @@
+.allproductspage-wrap{
+}
+
+.content-container{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 3%;
+}
+
+/* sort and filter */
+.content-left{
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  margin-left: 3%;
+  /* set min-width of the width of filter-sort container */
+  min-width: 200px;
+}
+
+/* category and product */
+.content-right{
+  display: flex;
+  flex-direction: column;
+  width: 77%;
+  padding: 16px;
+  margin-right: 1.5%;
+}
+
+.pagination-bar{
+  margin: 3% auto;
+}
+
+.ant-pagination-item-active{
+  background-color:rgba(3, 61, 31, 0.15) !important;
+  border: 2px solid #033D1F !important ;
+}
+
+.ant-pagination-item a, .ant-pagination-jump-prev, .ant-pagination-item-ellipsis{
+  color: #033D1F !important;
+}

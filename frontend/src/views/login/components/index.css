@@ -1,0 +1,38 @@
+.login-form{
+  width: 100%;
+}
+
+.login-form-item {
+    width: 100%;
+    border: none;
+  }
+  
+.login-form-item{
+    margin-bottom: -10px;
+}
+  
+.login-form-button {
+    display: block;
+    margin: 0 auto;
+
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: #033D1F;
+    color: white;
+    font-family: 'Kaisei Opti';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+.login-form-button:hover{
+    cursor: pointer;
+    color: inherit;
+}
+
+.login-form-input {
+    width: 100%;
+    height: 40px;
+}

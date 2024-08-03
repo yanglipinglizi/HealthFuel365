@@ -1,0 +1,257 @@
+/* homepage container */
+.homepage-wrap{
+  width: 100%;
+  background-color: #E7EBE9;
+}
+
+.homepage-body{
+  width: 96%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.homepage-carousel-ad{
+  /* display: flex;
+  justify-content: center; */
+  /* max-height: 420px; */
+}
+
+/* 
+.homepage-carousel{
+  height: 200px;
+}
+
+.homepage-carousel-ads{
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+} */
+
+.homepage-recommendation-wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.homepage-refresh-icon{
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.homepage-refresh{
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+}
+
+.homepage-refresh:hover{
+  cursor: pointer;
+}
+
+.homepage-title{
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.homepage-title-1{
+  font-family: 'Kaisei Opti';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-decoration: none;
+
+  color: #033D1F;
+}
+
+.homepage-title-2{
+  font-family: 'Kaisei Opti';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-decoration: none;
+
+  color: #4D4D4D;
+}
+
+.homepage-title-3{
+  font-family: 'Kaisei Opti';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+
+  color: #033D1F;
+}
+
+.homepage-recommendation{
+  margin-top: 10px;
+  background-color: #C4D0CB;
+  min-height: 400px;
+}
+
+.homepage-product{
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage-product-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+.homepage-supplier{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.homepage-suppliers-icon{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.homepage-suppliers-image{
+  max-height: 14%;
+  max-width: 14%;
+  margin: 1%;
+}
+
+
+.homepage-suppliers-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.homepage-alternative{
+  /*height: 360px;*/
+  background-color: #C4D0CB;
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage-junkfood-icon{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 33%;
+}
+
+.homepage-junkfood-icon1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.homepage-junk-food-icons{
+  margin: 10px;
+} */
+
+.homepage-alternative-product{
+  width: 67%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+.homepage-nutri-score{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.homepage-nutri-score-block{
+  display: flex;
+  flex-direction: row;
+}
+
+.homepage-nutri-score-introduction{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.homepage-nutri-score-title{
+  font-family: 'Kaisei Opti';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  color: #033D1F;
+}
+
+.homepage-nutri-score-content{
+  font-family: 'Kaisei Opti';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: justify;
+
+  color: #033D1F;
+}
+
+.homepage-nutri-score-to-faqs{
+  display: flex;
+  margin-left: 10px;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage-nutri-score-image{
+  /*position: relative;*/
+  width: 90%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.homepage-learn-more{
+  /* position of button */
+  position: absolute;
+  /*width: 200px;*/
+  width: 28%;
+  /*
+  left: 1100px;
+  top: 2300px;
+  */
+  left: 60%;
+
+  /* style of button */
+  border: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+
+  /* font style */
+  font-family: 'Kaisei Opti';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.homepage-learn-more:hover{
+  cursor: pointer;
+}

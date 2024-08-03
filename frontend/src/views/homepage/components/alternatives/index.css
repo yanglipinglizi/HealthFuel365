@@ -1,0 +1,111 @@
+.alternative-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.alternative-nav{
+    width: 96%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.alternative-nav-tabs{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    min-width: 230px;
+    align-items: center; 
+}
+
+.alternative-tab-item{
+    cursor: pointer;
+    width: 28%;
+    border-radius: 50%;
+    min-width: 105px;
+    margin-bottom: 10px;
+    margin-right: max(10px, 2%);
+}
+
+.alternative-tab-icon{
+    width: 100%;
+}
+
+.alternative-tab-icon:hover{
+    filter:brightness(1.2);
+}
+  
+.alternative-tab-item.selected {
+    box-shadow: 0 0 0.07rem white;
+    position: relative;
+}
+
+.alternative-tab-item.selected .alternative-tab-icon{
+    opacity: 0.5; /* partially transparent */
+}
+
+.alternative-tab-item.selected::after {
+    content: attr(junkFoodName); /* get content from .js file */
+    font-family: 'Kaisei Opti';
+    font-style: normal;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: max(0.2rem,17px); 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.alternative-panel-loading{
+   text-align: center;
+   align-items: center;
+   margin: auto;
+}
+
+.alternative-panels{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 5px;
+    justify-content: center;
+    align-items: center; 
+}
+
+.alternative-product{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+}
+
+.alternative-product .product{
+    width: 21%;
+    min-width: 98px;
+}
+
+.change-icon{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: -41px;
+    right: 1%;
+}
+
+@media (max-width: 1200px){
+    .change-icon{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: -14px;
+        right: 1%;
+        margin-left: 2.5%;
+    }
+    .alternative-nav{
+        margin-top: 25px;
+    }
+  }
