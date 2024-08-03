@@ -4,9 +4,9 @@ The health foods platform named “HealthFuel365” is an online store that offe
   <img src="frontend/src/assets/images/logo.png" alt="logo" width="200">
 </p>
 The customer journey is mainly divided into 7 parts, namely browsing our welcome page, creating a profile, browsing our homepage, searching products page, browsing the product detail page, adding the product into the shopping cart, and selecting the packing and shipping services.
-<div style="text-align: center;">
-  <img src="images/homepage.png" alt="homepage" width="400">
-</div>
+<p align="center">
+  <img src="images/homepage.png" alt="homepage" width="600">
+</p>
 
 # Backend Documentation
 
