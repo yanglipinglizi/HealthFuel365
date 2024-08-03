@@ -1,4 +1,15 @@
-# HealthFuel365
+# HealthFuel365 
+The health foods platform named “HealthFuel365” is an online store that offers foods retailing and recommends suitable products. It aims to help individuals to stay committed to a healthy diet. The platform name “HealthFuel365” is consistent with this goal, because our year-round platform aims to offer a curated selection of high-quality, nutritious foods and products from reputable suppliers. Based on healthy foods retailing with a recommendation mechanism, the platform promotes a healthy lifestyle, supporting the immune system and aiding in supporting a good diet and weight loss.
+<div style="text-align: center;">
+  <img src="frontend/src/assets/images/logo.png" alt="logo" width="200">
+</div>
+The customer journey is mainly divided into 7 parts, namely browsing our welcome page, creating a profile, browsing our homepage, searching products page, browsing the product detail page, adding the product into the shopping cart, and selecting the packing and shipping services.
+<div style="text-align: center;">
+  <img src="images/homepage.png" alt="homepage" width="400">
+</div>
+
+# Backend Documentation
+
 ## Installition
 1. Before running the application, ensure you have the installed the following:
 
@@ -62,19 +73,7 @@ services contains methods regarding getting, adding, updating and deleting produ
 
 data_clean  is a set of functions designed to process product data obtained from OpenFoodFacts. It performs a series of essential operations, such as format transformation, preprocessing, and other data cleaning tasks. The goal is to convert the raw product data into a format suitable for storage in MongoDB.
 
-
-
-# HealthFuel365 
-Our health foods platform named "HealthFuel365" is an online store that offers food retailing and recommends suitable products based on your dietary preferences, and health goals.
-<div style="text-align: center;">
-  <img src="src/assets/images/logo.png" alt="logo" width="200">
-</div>
-
-## Table of contents
-* [Installition](#installation)
-* [Usage](#usage)
-* [Test Accounts](#test-accounts)
-* [Folder Structure](#folder-structure)
+# Frontend Documentation
 
 ## Installition
 1. Before running the application, ensure you have the installed the following:
